@@ -191,7 +191,7 @@ body {
         }
 }
 
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 680px) {
 	/* MOBILE */
 	#content {
 		width: 100%;
@@ -244,7 +244,7 @@ body {
         }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 681px) {
 	/* DESKTOP */
 	body {
 		background-image: url("images/desert.JPG");
