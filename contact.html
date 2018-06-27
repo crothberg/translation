@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Shira Atik Translation</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div id="content">
+	<div id="header">
+        <div id="name-bar">
+			<img onclick="openMenu()" id="menu-icon" src="images/menu-icon.png" alt="menu-icon">
+			<a href="index.html"> <h1 id="name"> Shira Atik </h1> </a>
+			<div id="menu">
+				<a href="index.html" class="category"> Home </a>
+				<a href="about.html" class="category"> About </a>
+				<a href="testimonials.html" class="category"> Testimonials </a>
+				<a href="portfolio.html" class="category"> Translations </a>
+				<a href="contact.html" class="category"> Contact </a>
+			</div>
+        </div>
+        <div id="banner">
+			<a href="index.html" class="category"> Home </a>
+			<a href="about.html" class="category"> About </a>
+			<a href="testimonials.html" class="category"> Testimonials </a>
+			<a href="sample.html" class="category"> Sample Translation </a>
+			<br><br>
+			<a href="portfolio.html" class="category"> Books I've Translated </a>
+			<a href="contact.html" class="category"> Contact </a>
+        </div>
+	</div>
+
+	<script>
+	var open = false;
+	function openMenu() {
+			if (open) {
+					document.getElementById("menu").style.display = "none";
+					document.getElementById("name-bar").style.position = "relative";
+					open = false;
+			} else {
+					document.getElementById("menu").style.display = "inline";
+					document.getElementById("name-bar").style.position = "fixed";
+					open = true;
+			}
+	}
+	</script>
+	
+	<div class="article">
+		<h1 class="title"> Contact </h1>
+		<div id="contact-text">
+			<p style='text-align: left'>The best way to reach me is by e-mailing me at <a href="mailto:shiraatik@gmail.com" style="color:darkblue;">shiraatik@gmail.com</a> and telling me a little about your work. If possible, a sample of your work would be helpful.</p>
+			<br>
+			<img style='width:80%; margin-right:10%; background:black; float:right; border-style:solid; border-width: 1px;' src="images/letters.jpg" alt="letters">
+		</div>
+		<!--<div id="contact-form">               
+				<form action="http://shiraatik.atwebpages.com/mail.php" method="POST">
+						<label>Name</label><br><input type="text" name="name"> <br><br>
+						<label>Email</label><br><input type="text" name="email"> <br><br>
+						<label>Subject</label><br><input type="text" name="subject"> <br><br>
+						<label>Message</label><br><textarea name="message" rows="6" cols="26"></textarea>
+						<br><br><input type="submit" value="Send" style="margin: auto;">
+				</form>
+		</div>-->
+                
+	</div>
+	<div id="quote-bar">
+		<p id="quote">“I believe the essence of translation lies in taking what is unsaid in a work from one language to another.”<br><br><em>― Vivek Shanbhag</em></p>
+	</div>
+	<div id="contact-bar">
+	</div>
+</div>
+
+
+</body></html>

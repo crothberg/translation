@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Shira Atik Translation</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div id="content">
+	<div id="header">
+        <div id="name-bar">
+			<img onclick="openMenu()" id="menu-icon" src="images/menu-icon.png" alt="menu-icon">
+			<a href="index.html"> <h1 id="name"> Shira Atik </h1> </a>
+			<div id="menu">
+				<a href="index.html" class="category"> Home </a>
+				<a href="about.html" class="category"> About </a>
+				<a href="testimonials.html" class="category"> Testimonials </a>
+				<a href="portfolio.html" class="category"> Translations </a>
+				<a href="contact.html" class="category"> Contact </a>
+			</div>
+        </div>
+        <div id="banner">
+			<a href="index.html" class="category"> Home </a>
+			<a href="about.html" class="category"> About </a>
+			<a href="testimonials.html" class="category"> Testimonials </a>
+			<a href="sample.html" class="category"> Sample Translation </a>
+			<br><br>
+			<a href="portfolio.html" class="category"> Books I've Translated </a>
+			<a href="contact.html" class="category"> Contact </a>
+        </div>
+	</div>
+
+	<script>
+	var open = false;
+	function openMenu() {
+			if (open) {
+					document.getElementById("menu").style.display = "none";
+					document.getElementById("name-bar").style.position = "relative";
+					open = false;
+			} else {
+					document.getElementById("menu").style.display = "inline";
+					document.getElementById("name-bar").style.position = "fixed";
+					open = true;
+			}
+	}
+	</script>
+
+	<div class="article">
+		<h1 class="title"> Books I've Translated </h1>
+		<ul>
+				<li><i>It’s Just Your Imagination</i> by Revital Horowitz</li>
+				<li><i>A Woman Falls</i> by Ilan Amit</li>
+				<li><i>House Arrest</i> by Noa Yedlin (with Evan Fallenberg)</li>
+				<li><i>A Rabbi’s Daughter</i> by Avigail Graetz</li>
+				<li><i>Hope to See You Soon</i> by Revital Horowitz (Amazon Kindle)</li>
+				<li><i>Daughters of Iraq</i> by Revital Horowitz (Amazon Kindle)</li>
+				<li><i>The Strawberry Girl</i> (short story) by Savyon Liebrecht (Institute for the Translation of Hebrew Literature)</li>
+				<li><i>You Never Can Tell</i> (short story) by Gadi Taub (Fifty Stories from Israel, ed. Zisi Stavy)</li>
+				<li><i>The Stamp</i> (short story) by Roy Chen (Zeek Magazine, Winter 2009)</li>
+				<li><i>The Eye of God and Linbar</i> (short stories) by Galit Dahan-Carlibach</li>
+				<li><i>The Last Soldier</i> (excerpts) by Yinon Nir</li>
+				<li><i>What Would Have Happened if we had Forgotten about Dov?</i> by Gadi Taub (ITHL)</li>
+				<li><i>Steady Rain (A Play)</i> by Amir Peleg and Gadi Inbar</li>
+				<li><i>Distant Sister</i> by Judith Rotem (Jewish Publication Society)</li>
+				<li><i>Aunt Parsley and Me</i> by Chana Bar</li>
+				<li><i>Amber’s Magic Curls</i> by Liat Ramassti-Armon</li>
+				<li><i>Time Tunnel Series</i> (Books 6 and 8) by Galila Ron-Feder Amit</li>
+				<li><i>Dvora Omer Tells the Story of Ben-Gurion</i> by Dvora Omer</li>
+				<li>Many picture books for Sifriyat Pijama</li>
+		</ul>
+	</div>
+	<div id="quote-bar">
+		<p id="quote">“It is translation, more than speech itself, which provides incontrovertible evidence of the human capacity to think and to communicate thought.<br>We should do more of it.”<br><br><em>― David Bellos, <u>Is That a Fish in Your Ear? Translation and the Meaning of Everything</u></em></p>
+	</div>
+	<div id="contact-bar">
+	</div>
+</div>
+
+
+</body></html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Shira Atik Translation</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div id="content">
+	<div id="header">
+        <div id="name-bar">
+			<img onclick="openMenu()" id="menu-icon" src="images/menu-icon.png" alt="menu-icon">
+			<a href="index.html"> <h1 id="name"> Shira Atik </h1> </a>
+			<div id="menu">
+				<a href="index.html" class="category"> Home </a>
+				<a href="about.html" class="category"> About </a>
+				<a href="testimonials.html" class="category"> Testimonials </a>
+				<a href="portfolio.html" class="category"> Translations </a>
+				<a href="blog.html" class="category"> Blog </a>
+				<a href="contact.html" class="category"> Contact </a>
+			</div>
+        </div>
+        <div id="banner">
+			<a href="index.html" class="category"> Home </a>
+			<a href="about.html" class="category"> About </a>
+			<a href="testimonials.html" class="category"> Testimonials </a>
+			<a href="sample.html" class="category"> Sample Translation </a>
+			<br><br>
+			<a href="portfolio.html" class="category"> Books I've Translated </a>
+			<a href="contact.html" class="category"> Contact </a>
+			<a href="blog.html" class="category"> Blog </a>
+        </div>
+	</div>
+		
+	<script>
+	var open = false;
+	function openMenu() {
+			if (open) {
+					document.getElementById("menu").style.display = "none";
+					document.getElementById("name-bar").style.position = "relative";
+					open = false;
+			} else {
+					document.getElementById("menu").style.display = "inline";
+					document.getElementById("name-bar").style.position = "fixed";
+					open = true;
+			}
+	}
+	</script>
+
+	<div class="article">
+		<h1 class="title"> Blog </h1>
+		<div class="blog-post">
+			<h2 class="title blogtitle">My First Blog Post</h2>
+			<img class="illustration" src="images/dance.jpg" alt="dance">
+			<p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue, eros sit amet posuere venenatis, purus massa pharetra massa, eu rhoncus orci tortor a risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec in turpis fermentum elit volutpat vehicula. Maecenas id augue eget risus tincidunt lobortis. Phasellus in rutrum metus, maximus rhoncus dolor. Pellentesque accumsan elit at sem fermentum gravida. Fusce volutpat sem eget justo luctus, at feugiat turpis tristique. In sodales lacus non scelerisque ullamcorper. Duis convallis metus eget quam viverra, ut scelerisque dolor molestie. Etiam faucibus, leo eget commodo porta, diam turpis facilisis leo, ut aliquet augue nisl et urna. Praesent porta est mi, quis interdum mi congue eget. Proin arcu leo, sollicitudin ut quam ac, laoreet porta ipsum. Phasellus lectus turpis, ullamcorper ut nibh sed, iaculis blandit augue.
+			<br><br>Nunc porttitor tempus enim in ornare. Etiam in justo neque. Etiam sodales elit iaculis finibus faucibus. Donec nec lacinia orci. Nullam quis viverra nunc, vitae mollis orci. Sed facilisis turpis sed purus tincidunt feugiat. Nunc blandit aliquam congue. Cras pharetra erat sed sapien hendrerit, vel condimentum neque molestie.                        
+			<br><br>Etiam a neque pretium, feugiat metus vel, lacinia mauris. Suspendisse ullamcorper, lectus ac rutrum efficitur, leo ante dictum dui, id auctor ante ante et nisl. Cras at mollis metus, et suscipit purus. Cras pharetra est quis velit condimentum dictum. Sed mi arcu, pulvinar sed finibus dignissim, blandit a ante. Maecenas tempor, magna a laoreet faucibus, metus orci blandit nisl, id consectetur lorem sapien nec enim. Suspendisse potenti. Mauris vehicula consequat pulvinar. Vivamus viverra leo massa. Nullam commodo metus et blandit faucibus. Maecenas magna metus, porta eget consequat in, facilisis vitae magna. Pellentesque ut tempor felis, et hendrerit felis. Fusce consectetur vel mauris tincidunt volutpat. Aliquam erat volutpat. Integer turpis leo, lacinia vitae dapibus sit amet, pellentesque sit amet leo.
+			<br><br>Donec ornare et arcu non viverra. Fusce accumsan tellus quis bibendum scelerisque. Fusce nec enim lacinia, tincidunt neque eu, accumsan nulla. Quisque vestibulum hendrerit tellus. Aliquam quis nibh eu sem tristique interdum. Integer volutpat malesuada quam vitae suscipit. Nam facilisis sed orci vel blandit. Morbi maximus mi augue, ac dictum enim venenatis vitae. Duis placerat tincidunt fringilla. Suspendisse ultricies posuere magna, a sagittis lorem sollicitudin eget. Aliquam interdum, elit eget venenatis scelerisque, nisi turpis finibus libero, at elementum odio arcu eu erat. Vestibulum id aliquet lorem, id consectetur mauris. Mauris ullamcorper vulputate nisl quis tempor. Proin accumsan lorem at lectus aliquet, sit amet lobortis tortor placerat. Donec quis tempor tellus.
+			</p>
+		</div>
+	</div>
+	        <div id="quote-bar">
+                <p id="quote">“Translation is a journey over a sea from one shore to the other. Sometimes I think of myself as a smuggler: I cross the frontier of language with my booty of words, ideas, images, and metaphors.”<br><br><em>― Amara Lakhous, <u>Clash of Civilizations Over an Elevator in Piazza Vittorio</u></em></p>
+        </div>
+	<div id="contact-bar">
+	</div>
+</div>
+
+
+</body></html>

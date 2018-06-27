@@ -1,0 +1,313 @@
+/* code that is here, until the first @media block, will apply to any screen size */
+
+html {
+	font-family: 'Cinzel';
+	letter-spacing: 3px;
+}
+a {
+	text-decoration: none;
+        color: inherit;
+}
+p {
+	font-family: 'Cardo';
+	letter-spacing: 0px;
+	margin: 10px;
+	text-align: left;
+}
+ul {
+	font-family: 'Cardo';
+        letter-spacing: 0px;
+	text-align: left;
+}
+li {
+        margin: 10px 0px 10px 0px;
+}
+label {
+        width: 120px;
+        vertical-align: top;
+        text-align: left;
+}
+input {
+        width: 80%;
+}
+body {
+	margin: 0px;
+	background: beige;
+}
+#name-bar {
+	background: black;
+	text-align: center;
+        width: 100%;
+        top: 0px;
+}
+#name {
+	color: white;
+	margin: 0px;
+        font-size: 30px;
+}
+.column {
+	background: beige;
+	margin: auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+	vertical-align: top;
+        display: inline-block;
+}
+.block-preview {
+	width: 100%;
+}
+#content {
+	background: #917d78;
+	margin: auto;
+	text-align: center;
+}
+#quote-bar {
+	background: red;
+}
+#quote {
+	color: white;
+	background: black;
+	font-size: 24px;
+	text-align: center;
+	padding: 50px;
+	margin: auto;
+}
+#contact-bar {
+	background: #877891;
+	height: 100px;
+	margin: auto;
+}
+#centerpiece {
+	width: 100%;
+	overflow: hidden;
+}
+#centerpiece-image {
+	width: 100%;
+}
+.article {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+}
+.title {
+        width: 100%;
+}
+.illustration {
+        width: 400px;
+        margin: 0px 0px 30px 30px;
+        background: black;
+        float: right;
+        border-style: solid;
+        border-width: 1px;
+}
+#menu-icon {
+        float: left;
+        height: 40px;
+        margin: 15px;
+}
+#menu {
+        background: #877891;
+        width: 100%;
+        height: 500px;
+        position: fixed;
+        left: 0px;
+        display: none;
+}
+#contact-text {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px;
+        padding: 20px;
+}
+#contact-form {
+        width: 300px;
+        display:inline-block;
+        vertical-align: top;
+        margin: 20px;
+        padding: 20px;
+}
+.blog-post {
+        background: #c4b2ae;
+        padding: 0px 50px 30px 50px;
+}
+.blogtitle {
+        padding: 30px 0px 10px 0px;
+}
+
+@media screen and (max-width: 320px) {
+	/* TINY */
+	#content {
+		width: 100%;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 12px;
+		margin: 0px;
+		padding: 20px;
+	}
+	#name-bar {
+		height: 70px;
+	}
+	#name {
+		line-height: 70px;
+	}
+        .category {
+                display: block;
+                padding: 20px;
+                margin: 10px;
+        }
+	#centerpiece {
+		height: 170px;
+		margin-bottom: 50px;
+	}
+	#banner {
+		display: none;
+	}
+	.column {
+		width: 90%;
+	}
+        .body-text {
+                margin: 30px auto 30px auto;
+        }
+        .illustration {
+                width: 100%;
+        }
+        #contact-text {
+                width: 100%;
+                margin: 0px 0px 30px 0px;
+                padding: 0px;
+        }
+        #contact-form {
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+        }
+        .blog-post {
+                font-size: 14px;
+                padding: 0px 10px 5px 10px;
+        }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+	/* MOBILE */
+	#content {
+		width: 100%;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 12px;
+		margin: 0px;
+		padding: 20px;
+	}
+	#name-bar {
+		height: 70px;
+	}
+	#name {
+		line-height: 70px;
+                margin-right: 70px;
+	}
+        .category {
+                display: block;
+                padding: 20px;
+                margin: 10px;
+        }
+	#banner {
+		display: none;
+	}
+	.column {
+		width: 90%;
+	}
+        .body-text {
+                margin: 30px auto 30px auto;
+        }
+        .illustration {
+                width: 100%;
+        }
+        #contact-text {
+                width: 100%;
+                margin: 0px 0px 30px 0px;
+                padding: 0px;
+        }
+        #contact-form {
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+        }
+        .blog-post {
+                font-size: 14px;
+                padding: 0px 15px 20px 15px;
+        }
+}
+
+@media screen and (min-width: 481px) {
+	/* DESKTOP */
+	body {
+		background-image: url("images/desert.JPG");
+		background-size: 100%;
+	}
+	#content {
+		width: 1150px;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	#header {
+		position: -webkit-sticky; /* Safari */
+		position: sticky;
+		top: 0;
+                z-index: 1;
+	}
+	#header-bar {
+		height: 120px;
+	}
+	#name {
+		line-height: 120px;
+	}
+	#banner {
+		background: beige;
+		padding: 30px 0px 30px 0px;
+		text-align: center;
+	}
+	#centerpiece {
+		background: #542b6d;
+		height: 300px;
+	}
+        #centerpiece-image {
+                -ms-transform: translate(0px, -300px); /* IE 9 */
+                -webkit-transform: translate(0px, -300px); /* Safari */
+                transform: translate(0px, -300px);
+        }
+	.category {
+		margin: 0px 30px 0px 30px;
+		color: black;
+	}
+	.column {
+		width: 500px;
+                min-height: 700px;
+		margin: 30px 30px 30px 30px;
+	}
+        .title {
+                margin-top: 50px;
+        }
+        #menu-icon {
+                display: none;
+        }
+        #contact-text {
+                width: 520px;
+                font-size: 20px;
+                margin-left: 0px;
+                margin-right: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+        }
+}
+
+/* code that is here will apply to any screen size */
