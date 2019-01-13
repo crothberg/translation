@@ -162,11 +162,11 @@ body {
 	#name {
 		line-height: 70px;
 	}
-        .category {
-                display: block;
-                padding: 20px;
-                margin: 10px;
-        }
+	.category {
+			display: block;
+			padding: 20px;
+			margin: 10px;
+	}
 	#centerpiece {
 		height: 170px;
 		margin-bottom: 50px;
@@ -177,26 +177,31 @@ body {
 	.column {
 		width: 90%;
 	}
-        .body-text {
-                margin: 30px auto 30px auto;
-        }
-        .illustration {
-                width: 100%;
-        }
-        #contact-text {
-                width: 100%;
-                margin: 0px 0px 30px 0px;
-                padding: 0px;
-        }
-        #contact-form {
-                width: 100%;
-                margin: 0px;
-                padding: 0px;
-        }
-        .blog-post {
-                font-size: 14px;
-                padding: 0px 10px 5px 10px;
-        }
+	.body-text {
+		margin: 30px auto 30px auto;
+	}
+	.illustration {
+		width: 100%;
+	}
+	.illustration-left {
+		width:100%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	#contact-text {
+			width: 100%;
+			margin: 0px 0px 30px 0px;
+			padding: 0px;
+	}
+	#contact-form {
+			width: 100%;
+			margin: 0px;
+			padding: 0px;
+	}
+	.blog-post {
+			font-size: 14px;
+			padding: 0px 10px 5px 10px;
+	}
 }
 
 @media screen and (min-width: 321px) and (max-width: 680px) {
